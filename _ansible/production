@@ -1,0 +1,5 @@
+[aws-s3]
+aws-s3
+
+[aws-s3:vars]
+ansible_host = 127.0.0.1

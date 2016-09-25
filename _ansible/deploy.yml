@@ -1,0 +1,6 @@
+---
+- name: deploy website to the AWS S3
+  hosts: aws-s3
+  connection: local
+  tasks:
+    - command: "aws s3 sync ./../dist s3://adeira-tmp/"
